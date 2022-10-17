@@ -10,7 +10,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "tbl_accountType")
+@Table(name = "tbl_account_type")
 @Getter @Setter
 @NoArgsConstructor
 @EqualsAndHashCode
