@@ -3,9 +3,9 @@ INSERT INTO tbl_card_network VALUES (2, 'Visa');
 INSERT INTO tbl_card_network VALUES (3, 'Discover');
 INSERT INTO tbl_card_network VALUES (4, 'AmericanExpress');
 
-INSERT INTO tbl_accounttype VALUES(1, 'Credit');
-INSERT INTO tbl_accounttype VALUES(2, 'Checking');
-INSERT INTO tbl_accounttype VALUES(3, 'Savings');
+INSERT INTO tbl_account_type VALUES(1, 'Credit');
+INSERT INTO tbl_account_type VALUES(2, 'Checking');
+INSERT INTO tbl_account_type VALUES(3, 'Savings');
 
 INSERT INTO tbl_account (accountId, typeId, userId, balance, statementDate, closed) VALUES (1, 2, 4, 400, '2022-07-01', 0);
 INSERT INTO tbl_account (accountId, typeId, userId, balance, statementDate, closed) VALUES (2, 3, 4, 400, '2022-07-01', 0);

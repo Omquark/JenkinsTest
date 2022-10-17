@@ -9,11 +9,11 @@ CREATE SCHEMA IF NOT EXISTS `ttl_banking`;
 USE `ttl_banking` ;
 
 -- -----------------------------------------------------
--- Table `ttl_banking`.`tbl_accountType`
+-- Table `ttl_banking`.`tbl_account_type`
 -- -----------------------------------------------------
-DROP TABLE IF EXISTS `ttl_banking`.`tbl_accountType`;
+DROP TABLE IF EXISTS `ttl_banking`.`tbl_account_type`;
 
-CREATE TABLE IF NOT EXISTS `tbl_accountType` (
+CREATE TABLE IF NOT EXISTS `tbl_account_type` (
   `typeId` INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
   `accountType` VARCHAR(45) NOT NULL);
 
